@@ -1,0 +1,10 @@
+table{ width: 100%; margin: 32px 0 0 0; border-collapse: collapse; border:1px solid lightgray;
+    tr{
+        th, td{text-align: center; padding: 8px;
+            &:first-child{border: none;}
+            border-left: 1px solid rgb(136, 136, 136);
+        }
+        th{background: lightgray; }
+        td{}
+    }
+}

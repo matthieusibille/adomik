@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
-import './scss/App.scss';
-import Form from './components/Form';
+import '../scss/Layout.scss';
+import Form from './Form';
 
-export class App extends Component {
+export class Layout extends Component {
 
     constructor(props) {
         super(props)
@@ -53,6 +53,7 @@ export class App extends Component {
     }
 
     render() {
+        
         return (
             <div className="layout">
                 <Form data={this.state.components}/> 
@@ -61,4 +62,4 @@ export class App extends Component {
     }
 }
 
-export default App
+export default Layout
